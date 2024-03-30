@@ -1,30 +1,27 @@
 {
   "expo": {
-    "name": "Wallet2",
-    "slug": "Wallet2",
-    "version": "1.0.0",
+    "name": "Wallet",
+    "slug": "Wallet",
+    "version": "3.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffd500"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+    "scheme": "your-app-scheme",
+    "extra": {
+      "eas": {
+        "projectId": "2cf543b3-d41c-47f4-83e8-bf0775df9bb2"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "foregroundImage": "./src/assets/icon.png"
+      },
+      "package": "com.d44ns.Wallet"
     }
   }
 }
