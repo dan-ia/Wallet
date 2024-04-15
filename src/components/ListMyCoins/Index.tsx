@@ -5,10 +5,11 @@ import { theme } from '@/theme';
 import { styles } from './styles';
 
 import Line from '@/components/Line';
-import { CoinsPropsWallet } from '@/components/ListCoinsWallet/ListCoinWallet';
+
+import { CoinsPropsWallet } from '@/components/ListMyCoins/ListCoinWallet';
 
 
-export function ListCoinsWallet({ title, ico, coins, ihave, acronym, PNL, PNLN, ...props }: CoinsPropsWallet) {
+export function ListMyCoins({ title, ico, coins, ihave, acronym, PNL, PNLN, ...props }: CoinsPropsWallet) {
 
     const isNegative = PNLN && PNLN.startsWith('-');
     const isPositive = PNLN && PNLN.startsWith('+');
@@ -32,7 +33,7 @@ export function ListCoinsWallet({ title, ico, coins, ihave, acronym, PNL, PNLN, 
                         <View style={styles.containerPrice}>
                             <Text style={styles.price}>{coins}</Text>
                             <Text style={styles.acronym}>{`$ ${parseFloat(ihave).toFixed(2)}`}</Text>
-                            <Text style={[styles.PNLN, { color: isNegative ? theme.colors.red : isPositive ? theme.colors.green : theme.colors.dark[500]}]}>{PNLN}</Text>
+                            <Text style={[styles.PNLN, { color: isNegative ? theme.colors.red : isPositive ? theme.colors.green : theme.colors.dark[500] }]}>{PNLN}</Text>
                         </View>
                     </View >
                 </TouchableOpacity>

@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     container: {
         width: '100%',
         paddingHorizontal: 15,
-         
+
     },
     container_item: {
         width: '100%',
@@ -18,10 +18,10 @@ export const styles = StyleSheet.create({
     },
     img: {
         width: 27,
-        height: 27 ,
+        height: 27,
         borderRadius: 50,
         backgroundColor: theme.colors.white,
-        
+
     },
     containerCoin: {
         flex: 1,
@@ -33,9 +33,9 @@ export const styles = StyleSheet.create({
         color: theme.colors.white,
     },
     acronym: {
-        fontSize: 20,
+        fontSize: 16,
         color: theme.colors.dark[500]
-    },   
+    },
 
     containerPrice: {
         alignItems: 'flex-end'

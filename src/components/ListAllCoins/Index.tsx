@@ -3,10 +3,10 @@ import { View, Text, Image, TouchableOpacity } from 'react-native';
 
 import { styles } from './styles';
 import { theme } from '@/theme';
-import { CoinsPropsHome } from '@/components/ListCoinsHome/ListCoinHome';        
+import { CoinsPropsHome } from '@/components/ListAllCoins/ListCoinHome';
 
 
-export function ListCoinsHome({ title, ico, acronym, valuation, price,...props }: CoinsPropsHome) {
+export function ListAllCoins({ title, ico, acronym, valuation, price, ...props }: CoinsPropsHome) {
 
 
     const isNegative = valuation && valuation.startsWith('-');
@@ -29,7 +29,7 @@ export function ListCoinsHome({ title, ico, acronym, valuation, price,...props }
                         <Text style={[styles.valuation, { color: isNegative ? theme.colors.red : isPositive ? theme.colors.green : '#6C6C6C' }]}>
                             {valuation}
                         </Text>
-                        <Text style={styles.price}>{price}</Text>
+                        <Text style={styles.price}>{`$ ${price}`}</Text>
                     </View>
                 </View >
             </TouchableOpacity>
@@ -39,4 +39,3 @@ export function ListCoinsHome({ title, ico, acronym, valuation, price,...props }
     );
 
 }
-

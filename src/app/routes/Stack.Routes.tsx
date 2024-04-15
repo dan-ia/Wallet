@@ -5,6 +5,7 @@ import Buy from '../pages/Buy';
 import Sell from '../pages/Sell';
 import Convert from '../pages/Convert';
 import Deposit from '../pages/Deposit';
+import Transfer from '../pages/Tab/Transfer';
 
 const Stack = createStackNavigator()
 
@@ -18,6 +19,7 @@ declare global {
             Sell: undefined
             Convert: undefined
             Deposit: undefined
+            Transfer: undefined
         }
     }
 }
@@ -52,7 +54,7 @@ export default function StackRoutes() {
                 name='Buy'
                 component={Buy}
                 options={{
-                    presentation: 'transparentModal'
+                    presentation: 'modal'
                 }}
             />
 
@@ -60,22 +62,26 @@ export default function StackRoutes() {
                 name='Sell'
                 component={Sell}
                 options={{
-                    presentation: 'transparentModal'
+                    presentation: 'modal'
                 }}
             />
             <Stack.Screen
                 name='Convert'
                 component={Convert}
                 options={{
-                    presentation: 'transparentModal'
+                    presentation: 'modal'
                 }}
             />
             <Stack.Screen
                 name='Deposit'
                 component={Deposit}
                 options={{
-                    presentation: 'transparentModal'
+                    presentation: 'modal'
                 }}
+            />
+            <Stack.Screen
+                name='Transfer'
+                component={Transfer}
             />
         </Stack.Navigator>
 

@@ -147,7 +147,7 @@ export const COINS = [
         valuation: "0.00%",
         price: "0.1368",
         ico: require('../assets/images/brasil.png'),
-        ihave: "200",
+        ihave: "0",
         coins: "1.000R$",
         PNL: "PNL de Hoje",
         PNLN: ""
@@ -172,7 +172,7 @@ export const COINS = [
         valuation: "-0.53%",
         price: "0.898",
         ico: require('../assets/images/polygon.png'),
-        ihave: "55.16",
+        ihave: "0",
         coins: "0.10923645",
         PNL: "PNL de Hoje",
         PNLN: "+$20.26(+40.0%)"
@@ -184,7 +184,7 @@ export const COINS = [
         valuation: "+1.23%",
         price: "0.00000099",
         ico: require('../assets/images/shibainu.png'),
-        ihave: "100.92",
+        ihave: "0",
         coins: "32.1695669",
         PNL: "PNL de Hoje",
         PNLN: "-$10.00(-0.20%)"
@@ -248,7 +248,7 @@ export const COINS = [
         valuation: "-3.44%",
         price: "33.96",
         ico: require('../assets/images/injective.png'),
-        ihave: "20",
+        ihave: "0",
         coins: "0.1695669",
         PNL: "PNL de Hoje",
         PNLN: "-$20.00(-1.00%)"
@@ -256,6 +256,3 @@ export const COINS = [
     }
 
 ]
-
-
-

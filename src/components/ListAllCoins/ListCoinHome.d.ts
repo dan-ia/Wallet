@@ -6,7 +6,5 @@ export type CoinsPropsHome = {
    ico: ImageProps,
    acronym: string,
    price: string,
-   valuation: string
-  
-
+   valuation: string,
 }
