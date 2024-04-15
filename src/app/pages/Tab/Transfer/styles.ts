@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { theme } from '../../../theme';
+import { theme } from '../../../../theme';
 
 export const styles = StyleSheet.create({
     container: {
@@ -12,13 +12,14 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'row',
         flexWrap: 'wrap',
+        marginTop: 10,
         gap: 10,
         // paddingVertical: 20,
     },
     box: {
         justifyContent: 'space-evenly',
         alignItems: 'center',
-        width: 180,
+        width: 190,
         height: 200,
         backgroundColor: theme.colors.dark[600],
         padding: 20,

@@ -1,17 +1,19 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
 import { FontAwesome6, AntDesign, MaterialIcons } from '@expo/vector-icons';
 
 import { StyleSheet } from 'react-native';
 import { theme } from '@/theme';
 
-import Home from '@/app/pages/Home';
-import Wallet from '@/app/pages/Wallet'
-import Transfer from '@/app/pages/Transfer';
+import Feed from '@/app/pages/Tab/Feed';
+import Wallet from '@/app/pages/Tab/Wallet'
+import Transfer from '@/app/pages/Tab/Transfer';
 
 
 const Tab = createBottomTabNavigator();
 
-export function Routes() {
+
+export default function TabRoutes() {
     return (
         <Tab.Navigator
             screenOptions={{
@@ -33,8 +35,8 @@ export function Routes() {
 
 
             <Tab.Screen
-                name='Home'
-                component={Home}
+                name='Feed'
+                component={Feed}
                 options={{
                     tabBarIcon: ({ focused }) => {
                         if (focused) {
@@ -74,6 +76,8 @@ export function Routes() {
     )
 
 }
+
+
 
 const styles = StyleSheet.create({
     active: {

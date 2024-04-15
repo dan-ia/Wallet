@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { View, Text, TouchableOpacity, Pressable, } from "react-native";
-import { Octicons } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native'
 
+import { Octicons } from '@expo/vector-icons';
 import { styles } from "./styles";
 
 import { TotalBalanceProps } from "@/components/TotalBalance/TotalBalance";
@@ -19,10 +20,13 @@ export default function TotalBalance({ price, button, pnl, pnln }: TotalBalanceP
         )
     }
 
+    const navigation = useNavigation()
+
     return (
         <View style={styles.container}>
             <View style={styles.containeye}>
                 <Text style={styles.header}>Total Balance</Text>
+
                 <Pressable onPress={() => ToHide()}>
                     <Octicons name={ChangeIco} size={20} color="white" />
                 </Pressable>
@@ -32,11 +36,12 @@ export default function TotalBalance({ price, button, pnl, pnln }: TotalBalanceP
             <View style={styles.containerPrice}>
                 <Text style={styles.price}>{ChangeValue}</Text>
 
-
-                <TouchableOpacity style={styles.containerButton}>
+                <Pressable onPress={() => navigation.navigate('Transfer')} style={styles.containerButton}>
                     <Text style={styles.button}>{button}</Text>
-                </TouchableOpacity>
+                </Pressable>
+
             </View>
+
             <View style={styles.pnls}>
                 <Text style={styles.PNL}>{pnl}</Text>
                 <Text style={styles.PNLN}>{pnln}</Text>

@@ -1,4 +1,6 @@
-import { View, ScrollView } from "react-native";
+import { View, ScrollView, Pressable, Text, Button } from "react-native";
+
+
 import { styles } from "./styles";
 
 import Title from "@/components/Title";
@@ -7,9 +9,14 @@ import { COINS } from "@/utils/dataCoins";
 import TotalBalance from "@/components/TotalBalance";
 import { ListCoinsHome } from "@/components/ListCoinsHome/Index";
 
+
+
 export default function Coins() {
+
+
     return (
         <View style={styles.container}>
+
             <Header />
 
             <TotalBalance price={'$1303.24'} button='Deposit' pnl="" pnln="" />
@@ -24,7 +31,7 @@ export default function Coins() {
                             title={coin.title}
                             ico={coin.ico}
                             acronym={coin.acronym}
-                            price={coin.price} 
+                            price={coin.price}
                             valuation={coin.valuation} id="" />
                     ))}
                 </>
@@ -32,4 +39,3 @@ export default function Coins() {
         </View>
     )
 }
-

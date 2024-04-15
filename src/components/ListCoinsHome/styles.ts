@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     },
     img: {
         width: 27,
-        height: 27,
+        height: 27 ,
         borderRadius: 50,
         backgroundColor: theme.colors.white,
         
@@ -29,11 +29,11 @@ export const styles = StyleSheet.create({
     },
 
     title: {
-        fontSize:18,
+        fontSize: 22,
         color: theme.colors.white,
     },
     acronym: {
-        fontSize: 15,
+        fontSize: 20,
         color: theme.colors.dark[500]
     },   
 
