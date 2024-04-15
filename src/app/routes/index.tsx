@@ -1,7 +1,7 @@
-import DrawnRouters from "./Drawner.Routes";
+import StackRoutes from "./Stack.Routes"
 
 export default function Routes() {
     return (
-        <DrawnRouters />
+        <StackRoutes />
     )
 }

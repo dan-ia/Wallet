@@ -8,7 +8,7 @@ import { styles } from "./styles";
 
 export default function Header() {
 
-    const navigator = useNavigation()
+    const { navigate } = useNavigation()
 
     return (
         <View style={styles.container}>
@@ -18,7 +18,7 @@ export default function Header() {
                     <Image style={styles.logo} source={require('../../assets/images/white.png')}></Image>
                 </TouchableOpacity>
 
-                <Pressable onPress={() => navigator.navigate('Profile')}>
+                <Pressable onPress={() => navigate('Profile')}>
                     <Image style={styles.avatar} source={require('../../assets/images/perfil.jpg')}></Image>
                 </Pressable>
             </View>
