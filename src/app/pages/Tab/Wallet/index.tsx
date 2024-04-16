@@ -14,7 +14,7 @@ export default function Wallet() {
         <View style={styles.container}>
             <Header />
 
-            <TotalBalance price={'$1303.24'} button='' pnl="PNL De Hoje:" pnln="+$109,94(+13.0%)" />
+            <TotalBalance price={'$1303.24'} button='Buy' pnl="PNL De Hoje:" pnln="+$109,94(+13.0%)" />
 
             <Title text="Wallet" />
 
