@@ -2,6 +2,7 @@
  <p>My Wallet 🪙</p>
 </h1>
 
+<p align="center">🚧👷🏽‍♀️ Application under construction 👷🏽‍♀️🚧</p>
 
 ### 📕 About
 
