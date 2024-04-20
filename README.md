@@ -8,10 +8,13 @@
 
 Crypto exchange, buying and selling application, which tracks and monitors the yields and fluctuations of digital assets.
 
+&nbsp;
 
 ### ❓ Why the app
 
 After diving into the world of cryptocurrencies, I decided to develop an Exchange application that acts as an intermediary between sellers and buyers of digital assets.
+
+&nbsp;
 
 ### ⛏️ Tools used
 
@@ -20,20 +23,21 @@ After diving into the world of cryptocurrencies, I decided to develop an Exchang
 - [React Native](https://reactnative.dev/docs/getting-started)
 - [React Navigation](https://reactnavigation.org/docs/getting-started/)
 
+&nbsp;
+
 ### 🤝🏽 How to contribute
 
-You need to have Node, Git and VsCode installed on your computer.
+You need to have [Node](https://nodejs.org/en/download), [Git](https://git-scm.com/download/win) and [VsCode](https://code.visualstudio.com/download) installed on your computer.
 
-And to run the application, simply download Expo Go on your smartphone.
+And to run the application, simply download [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US) on your smartphone.
 
-Or install the Android emulator on your computer and download Expo Go from the Play Store using the emulator.
+Or install the [Android emulator](https://developer.android.com/studio?hl=pt-br) on your computer and download Expo Go from the Play Store using the emulator.
+
+#### Siga o passo a passo:
 
 ````bash
     # Clone the project
-    $ git clone https://github.com/dan-ia/Wallet
-
-    # View available folders
-    $ ls
+    $ git clone git@github.com:dan-ia/Wallet.git
 
     # Enter directory
     $ cd Wallet
