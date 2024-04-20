@@ -1,6 +1,16 @@
+
+<div align="center">
+  <img src="./src/assets//icon.png" widht="100px" height="100px">
+</div>
+
+
 <h1 align='center'>
- <p>My Wallet 🪙</p>
+ <p>My Wallet</p>
 </h1>
+
+
+
+
 
 <p align="center">🚧👷🏽‍♀️ Application under construction 👷🏽‍♀️🚧</p>
 
