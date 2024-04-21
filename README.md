@@ -8,23 +8,22 @@
  <p>My Wallet</p>
 </h1>
 
-
-
-
-
 <p align="center">🚧👷🏽‍♀️ Application under construction 👷🏽‍♀️🚧</p>
 
 ### 📕 About
 
 Crypto exchange, buying and selling application, which tracks and monitors the yields and fluctuations of digital assets.
 
-&nbsp;
+
+
+
+#
 
 ### ❓ Why the app
 
 After diving into the world of cryptocurrencies, I decided to develop an Exchange application that acts as an intermediary between sellers and buyers of digital assets.
 
-&nbsp;
+#
 
 ### ⛏️ Tools used
 
@@ -33,7 +32,7 @@ After diving into the world of cryptocurrencies, I decided to develop an Exchang
 - [React Native](https://reactnative.dev/docs/getting-started)
 - [React Navigation](https://reactnavigation.org/docs/getting-started/)
 
-&nbsp;
+#
 
 ### 🤝🏽 How to contribute
 
@@ -43,7 +42,7 @@ And to run the application, simply download [Expo Go](https://play.google.com/st
 
 Or install the [Android emulator](https://developer.android.com/studio?hl=pt-br) on your computer and download Expo Go from the Play Store using the emulator.
 
-#### Siga o passo a passo:
+#### Follow the step by step:
 
 ````bash
     # Clone the project
