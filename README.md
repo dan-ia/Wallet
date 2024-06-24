@@ -10,8 +10,6 @@
 
 
 
-
-
 <p align="center">🚧👷🏽‍♀️ Application under construction 👷🏽‍♀️🚧</p>
 
 ### 📕 About
