@@ -4,7 +4,7 @@ import { styles } from "./styles";
 
 import Header from "@/components/Header";
 import Title from "@/components/Title";
-import { COINS } from "@/utils/dataCoins";
+import { COINS } from "../../../../utils/dataCoins";
 import TotalBalance from "@/components/TotalBalance";
 import { ListMyCoins } from "@/components/ListMyCoins/Index";
 

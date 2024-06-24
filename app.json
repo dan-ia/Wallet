@@ -2,26 +2,32 @@
   "expo": {
     "name": "Wallet",
     "slug": "Wallet",
-    "version": "3.0.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffd500"
+      "backgroundColor": "#141414"
     },
-    "scheme": "your-app-scheme",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.d44ns.Wallet"
+    },
+    "web": {
+      "favicon": "./src/assets/icon.png"
+    },
     "extra": {
       "eas": {
         "projectId": "2cf543b3-d41c-47f4-83e8-bf0775df9bb2"
       }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./src/assets/icon.png"
-      },
-      "package": "com.d44ns.Wallet"
     }
   }
 }

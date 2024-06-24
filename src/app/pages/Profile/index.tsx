@@ -7,7 +7,7 @@ import Title from "@/components/Title";
 import Line from "@/components/Line";
 import { theme } from "@/theme";
 
-const perfil = require('../../../assets/images/perfil.jpg')
+const perfil = require('../../../assets/perfil.jpg')
 
 export default function Profile() {
 

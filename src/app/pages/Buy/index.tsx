@@ -4,7 +4,7 @@ import { colors } from "@/theme/colors";
 import Title from "@/components/Title";
 
 import { ListAllCoins } from "@/components/ListAllCoins/Index";
-import { COINS } from "@/utils/dataCoins";
+import { COINS } from "../../../utils/dataCoins"
 
 
 export default function Buy() {

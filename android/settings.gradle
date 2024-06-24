@@ -1,4 +1,4 @@
-rootProject.name = 'wallet2'
+rootProject.name = 'Wallet2'
 
 dependencyResolutionManagement {
   versionCatalogs {

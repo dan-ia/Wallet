@@ -15,11 +15,11 @@ export default function Header() {
             <View style={styles.containerHeader}>
 
                 <TouchableOpacity onPress={() => { Linking.openURL('https://www.instagram.com/d44ns/') }}>
-                    <Image style={styles.logo} source={require('../../assets/images/white.png')}></Image>
+                    <Image style={styles.logo} source={require('../../assets/white.png')}></Image>
                 </TouchableOpacity>
 
                 <Pressable onPress={() => navigate('Profile')}>
-                    <Image style={styles.avatar} source={require('../../assets/images/perfil.jpg')}></Image>
+                    <Image style={styles.avatar} source={require('../../assets/perfil.jpg')}></Image>
                 </Pressable>
             </View>
             <Line></Line>

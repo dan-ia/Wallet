@@ -3,7 +3,7 @@ import { styles } from "./styles";
 import { colors } from "@/theme/colors";
 import Title from "@/components/Title";
 
-import { COINS } from "@/utils/dataCoins";
+import { COINS } from "../../../utils/dataCoins";
 import { ListMyCoins } from "@/components/ListMyCoins/Index";
 
 
