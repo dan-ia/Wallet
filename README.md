@@ -8,11 +8,7 @@
  <p>My Wallet</p>
 </h1>
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> f1b9d10fd20a4312b0f04efd379dec6064dfe8e8
 <p align="center">🚧👷🏽‍♀️ Application under construction 👷🏽‍♀️🚧</p>
 
 ### 📕 About
